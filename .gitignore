@@ -1,0 +1,5 @@
+Respaldos/
+*.csv
+MuMu-config*.json
+*.log
+Thumbs.db

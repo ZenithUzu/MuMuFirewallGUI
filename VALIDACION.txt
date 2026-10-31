@@ -1,0 +1,10 @@
+VALIDACIÓN — 31-10-2026
+Windows PowerShell 5.1, STA.
+PASS: análisis de sintaxis de Core.ps1, MuMuFirewallGUI.ps1 y Validar.ps1.
+PASS: construcción y liberación de controles WinForms mediante -SmokeTest.
+PASS: firewall simulado: reglas limitadas por exe/IP/TCP, deduplicación, rechazo de Any/rangos/subredes, etiqueta, activación, desactivación, eliminación y protección de reglas ajenas.
+PASS: exportación JSON y validación de importación; rechazo de IP global.
+Referencia: 54 entradas extraídas del BAT original, solo informativas.
+No se ejecutaron comandos de modificación contra el firewall real.
+No se probó captura real de MuMu ni bloqueo de anuncios en una instalación real.
+v2.1: PASS nombre sin separador vertical y validación de propiedades con objeto nativo HNetCfg.FWRule aislado, sin registrarlo en el firewall.
